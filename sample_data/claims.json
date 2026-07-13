@@ -1,0 +1,18 @@
+[
+  {
+    "claim_id":5001,
+    "name":"M. Kumar",
+    "phone":"+91-9876543210",
+    "email":null,
+    "address":"Bengaluru",
+    "last_updated":"2026-07-05"
+  },
+  {
+    "claim_id":5002,
+    "name":"Rahul Sharma",
+    "phone":"99887-76655",
+    "email":"rahul@gmail.com",
+    "address":"Mumbai",
+    "last_updated":"2026-07-06"
+  }
+]

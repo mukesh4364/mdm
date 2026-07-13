@@ -1,0 +1,29 @@
+application:
+
+  name: Enterprise MDM
+
+  version: 1.0
+
+pipeline:
+
+  batch_size: 1000
+
+  workers: 4
+
+  enable_lineage: true
+
+  enable_reconciliation: true
+
+storage:
+
+  database: duckdb
+
+  path: data/mdm.duckdb
+
+logging:
+
+  level: INFO
+
+matching:
+
+  threshold: 90

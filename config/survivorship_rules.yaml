@@ -1,0 +1,21 @@
+priority:
+
+  CRM: 1
+
+  CLAIMS: 2
+
+  MOBILE: 3
+
+rules:
+
+  phone:
+
+    strategy: source_priority
+
+  email:
+
+    strategy: latest_non_null
+
+  address:
+
+    strategy: latest

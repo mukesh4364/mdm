@@ -1,0 +1,20 @@
+phone:
+
+  remove_country_code: true
+
+  digits: 10
+
+email:
+
+  lowercase: true
+
+name:
+
+  title_case: true
+
+address:
+
+  Bengaluru: Bangalore
+  BLR: Bangalore
+  Bombay: Mumbai
+  Madras: Chennai
