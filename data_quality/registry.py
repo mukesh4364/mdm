@@ -1,8 +1,8 @@
-from mdm.data_quality.rules.required import RequiredRule
-from mdm.data_quality.rules.phone import PhoneRule
-from mdm.data_quality.rules.email import EmailRule
-from mdm.data_quality.rules.min_length import MinLengthRule
-from mdm.data_quality.rules.date import DateRule
+from data_quality.rules.required import RequiredRule
+from data_quality.rules.phone import PhoneRule
+from data_quality.rules.email import EmailRule
+from data_quality.rules.min_length import MinLengthRule
+from data_quality.rules.date import DateRule
 
 
 class RuleRegistry:

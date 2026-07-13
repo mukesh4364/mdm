@@ -1,4 +1,4 @@
-from mdm.data_quality.models import (
+from data_quality.models import (
     RuleResult,
     ValidationError,
     ValidationResult,

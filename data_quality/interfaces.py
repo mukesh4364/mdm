@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from mdm.data_quality.models import RuleResult
+from data_quality.models import RuleResult
 
 
 class ValidationRule(ABC):

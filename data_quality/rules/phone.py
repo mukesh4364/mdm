@@ -1,5 +1,5 @@
-from mdm.data_quality.interfaces import ValidationRule
-from mdm.data_quality.models import RuleResult
+from data_quality.interfaces import ValidationRule
+from data_quality.models import RuleResult
 import re
 
 class PhoneRule(ValidationRule):

@@ -1,5 +1,5 @@
 import re
-from mdm.standardization.interfaces import Standardizer
+from standardization.interfaces import Standardizer
 
 
 class NameStandardizer(Standardizer):

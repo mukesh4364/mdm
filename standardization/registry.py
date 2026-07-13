@@ -1,7 +1,7 @@
-from mdm.standardization.normalizers.address import AddressStandardizer
-from mdm.standardization.normalizers.email import EmailStandardizer
-from mdm.standardization.normalizers.name import NameStandardizer
-from mdm.standardization.normalizers.phone import PhoneStandardizer
+from standardization.normalizers.address import AddressStandardizer
+from standardization.normalizers.email import EmailStandardizer
+from standardization.normalizers.name import NameStandardizer
+from standardization.normalizers.phone import PhoneStandardizer
 
 
 class StandardizationRegistry:

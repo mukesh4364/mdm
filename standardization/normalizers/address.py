@@ -1,4 +1,4 @@
-from mdm.standardization.interfaces import Standardizer
+from standardization.interfaces import Standardizer
 
 
 class AddressStandardizer(Standardizer):
