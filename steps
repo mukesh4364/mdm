@@ -1,0 +1,18 @@
+We'll create a fully working repository, module by module:
+
+1. Project structure and configuration
+2. Canonical models
+3. Ingestion framework
+4. Standardization engine
+5. Data quality framework
+6. Identity resolution engine
+7. Golden Record engine
+8. Lineage tracking
+9. Reconciliation
+10. Observability
+11. REST API
+12. End-to-end execution
+13. Tests
+14. Docker support
+15. Documentation
+lets start building app in incremental order starting with 

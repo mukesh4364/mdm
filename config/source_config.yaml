@@ -1,0 +1,19 @@
+sources:
+
+  crm:
+
+    type: csv
+
+    path: sample_data/crm.csv
+
+  claims:
+
+    type: json
+
+    path: sample_data/claims.json
+
+  mobile:
+
+    type: json
+
+    path: sample_data/mobile.json

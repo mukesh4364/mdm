@@ -1,0 +1,11 @@
+weights:
+
+  phone: 60
+
+  email: 30
+
+  name: 10
+
+threshold:
+
+  match: 90

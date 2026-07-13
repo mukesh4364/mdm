@@ -1,0 +1,23 @@
+phone:
+  enabled: true
+  transformers:
+    - trim
+    - remove_non_digits
+    - remove_country_code
+
+name:
+  enabled: true
+  transformers:
+    - trim
+    - collapse_spaces
+    - title_case
+
+address:
+  enabled: true
+  transformers:
+    - trim
+    - title_case
+    - alias_mapping
+  mappings:
+    Bengaluru: Bangalore
+    BLR: Bangalore

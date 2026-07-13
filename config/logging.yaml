@@ -1,0 +1,23 @@
+version: 1
+
+formatters:
+
+  json:
+
+    class: pythonjsonlogger.jsonlogger.JsonFormatter
+
+handlers:
+
+  console:
+
+    class: logging.StreamHandler
+
+    formatter: json
+
+root:
+
+  level: INFO
+
+  handlers:
+
+    - console

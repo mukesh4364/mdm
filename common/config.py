@@ -1,0 +1,16 @@
+from pathlib import Path
+
+import yaml
+
+
+class ConfigLoader:
+
+    @staticmethod
+    def load(path: str) -> dict:
+
+        with Path(path).open(
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            return yaml.safe_load(f)

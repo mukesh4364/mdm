@@ -1,0 +1,19 @@
+[project]
+name = "enterprise-mdm"
+
+version = "0.1.0"
+
+description = "Enterprise Master Data Management Platform"
+
+requires-python = ">=3.12"
+
+dependencies = [
+    "pydantic",
+    "PyYAML",
+    "pandas",
+    "rapidfuzz",
+    "fastapi",
+    "uvicorn",
+    "duckdb",
+    "python-json-logger"
+]

@@ -1,0 +1,74 @@
+customer:
+
+  full_name:
+
+    rules:
+
+      - type: required
+        severity: ERROR
+        error_code: DQ001
+        message: Customer name is mandatory.
+
+      - type: min_length
+        value: 3
+        severity: ERROR
+        error_code: DQ002
+        message: Customer name must contain at least 3 characters.
+
+  phone:
+
+    rules:
+
+      - type: required
+        severity: ERROR
+        error_code: DQ101
+        message: Phone number is mandatory.
+
+      - type: phone
+        country: IN
+        severity: ERROR
+        error_code: DQ102
+        message: Invalid phone number.
+
+  email:
+
+    rules:
+
+      - type: required
+        severity: ERROR
+        error_code: DQ201
+        message: Email address is mandatory.
+
+      - type: email
+        severity: ERROR
+        error_code: DQ202
+        message: Invalid email address.
+
+  address:
+
+    rules:
+
+      - type: min_length
+        value: 5
+        severity: WARNING
+        error_code: DQ301
+        message: Address seems too short.
+
+  date_of_birth:
+
+    rules:
+
+      - type: date
+        format: "%Y-%m-%d"
+        severity: ERROR
+        error_code: DQ401
+        message: Invalid date format.
+
+  id:
+
+    rules:
+
+      - type: required
+        severity: ERROR
+        error_code: DQ501
+        message: Customer ID is mandatory.
