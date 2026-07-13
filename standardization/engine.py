@@ -1,7 +1,7 @@
 from copy import deepcopy
 
-from mdm.canonical import CustomerRecord
-from mdm.standardization.registry import StandardizationRegistry
+from canonical import CustomerRecord
+from standardization.registry import StandardizationRegistry
 
 
 class StandardizationEngine:

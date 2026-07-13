@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from mdm.canonical import CustomerRecord
+from canonical import CustomerRecord
 
 
 class SourceConnector(ABC):

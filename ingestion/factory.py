@@ -1,5 +1,5 @@
-from mdm.ingestion.readers.csv_reader import CSVReader
-from mdm.ingestion.readers.json_reader import JSONReader
+from ingestion.readers.csv_reader import CSVReader
+from ingestion.readers.json_reader import JSONReader
 
 
 class ReaderFactory:

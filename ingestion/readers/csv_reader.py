@@ -2,9 +2,9 @@ from pathlib import Path
 
 import pandas as pd
 
-from mdm.canonical import CustomerRecord
-from mdm.ingestion.interfaces import SourceConnector
-from mdm.ingestion.mappers.customer_mapper import CustomerMapper
+from canonical import CustomerRecord
+from ingestion.interfaces import SourceConnector
+from ingestion.mappers.customer_mapper import CustomerMapper
 
 
 class CSVReader(SourceConnector):

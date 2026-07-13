@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from mdm.canonical import CustomerRecord, RecordMetadata
-from mdm.canonical.enums import SourceType
+from canonical import CustomerRecord, RecordMetadata
+from canonical.enums import SourceType
 
 
 class CustomerMapper:

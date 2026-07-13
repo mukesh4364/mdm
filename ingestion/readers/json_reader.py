@@ -1,9 +1,9 @@
 import json
 from pathlib import Path
 
-from mdm.canonical import CustomerRecord
-from mdm.ingestion.interfaces import SourceConnector
-from mdm.ingestion.mappers.customer_mapper import CustomerMapper
+from canonical import CustomerRecord
+from ingestion.interfaces import SourceConnector
+from ingestion.mappers.customer_mapper import CustomerMapper
 
 
 class JSONReader(SourceConnector):
