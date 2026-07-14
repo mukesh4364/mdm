@@ -6,6 +6,11 @@ We'll create a fully working repository, module by module:
 4. Standardization engine
 5. Data quality framework
 6. Identity resolution engine
+    Phase 1 – Foundation
+    Phase 2 – Matching Rules
+    Phase 3 – Core Engine
+    Phase 4 – Clustering
+    Phase 5 – Integration
 7. Golden Record engine
 8. Lineage tracking
 9. Reconciliation

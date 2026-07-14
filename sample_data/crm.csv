@@ -2,3 +2,5 @@ customer_id,name,phone,email,address,last_updated
 101,Mukesh Kumar,+91 9876543210,mukesH@gmail.com,Bangalore,2026-07-01
 102,Rahul Sharma,99887 76655,rahul@gmail.com,Mumbai,2026-07-02
 103,Anita Singh,,anita@gmail.com,BLR,2026-07-03
+104,Mukesh K,98765 43210,mukes@gmail.com,Bangalore,2026-07-01
+105,Mukesh K,9876543210,mukesh@gmail.com,Bangalore,2026-07-01

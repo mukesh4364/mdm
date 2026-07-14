@@ -1,0 +1,44 @@
+customer:
+
+  matching_rules:
+
+    - type: phone
+      weight: 40
+
+    - type: email
+      weight: 40
+
+    - type: exact
+      field: customer_id
+      weight: 10
+
+    - type: fuzzy_name
+      field: full_name
+      weight: 10
+      threshold: 80
+
+  decision:
+
+    match_score: 90
+
+    possible_match_score: 70
+
+
+#supplier:
+#
+#  matching_rules:
+#
+#    - type: gst
+#      weight: 60
+#
+#    - type: company_name
+#      weight: 25
+#
+#    - type: address
+#      weight: 15
+#
+#  decision:
+#
+#    match_score: 85
+#
+#    possible_match_score: 65
