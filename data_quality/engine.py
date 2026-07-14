@@ -29,22 +29,30 @@ class DataQualityEngine:
         warnings: list[ValidationError] = []
 
         customer_rules = self.config.get("customer", {})
+        print("customer rule")
+        print(customer_rules)
 
         for field_name, field_config in customer_rules.items():
 
             value = getattr(customer, field_name, None)
+            print(field_name)
+            print(field_config)
+            print(value)
 
             for rule_config in field_config.get("rules", []):
 
                 rule_name = rule_config["type"]
+                print(rule_name)
 
                 rule = self.registry.get(rule_name)
+                print(rule)
 
                 rule_result: RuleResult = rule.validate(
                     field_name=field_name,
                     value=value,
                     config=rule_config,
                 )
+                print(rule_result)
 
                 if rule_result.passed:
                     continue
